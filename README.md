@@ -1,11 +1,12 @@
-# Exercise data: Numerical modelling with BASEMENT
+# Tutorial Data: Create a Computational Mesh with QGIS and BASEmesh
 
-This repository contains data for the exercise on numerical modelling with the [ETH Zurich's BASEMENT](https://basement.ethz.ch/) software.
+This repository contains data for the tutorial on creating a computational mesh with the [ETH Zurich's BASEmesh](https://basement.ethz.ch/download/tools/basemesh.html) plugin for QGIS.
 
 The here provided data represent reuired input data for completing the exercise at Vanilla River in central Europe, notably:
 
 * flows/SteadyVanillaInflow.txt  (steady inflow data)
-* points_raw/points.txt  (raw measurement points)
-* breaklines.zip/breaklines.[shp]
+* rasters/inn-dem.tif (small and coarse section of a DEM)
+* shapefiles/breaklines.zip/breaklines.[shp] (line shapefile with model boundaries and breaklines)
+* shapefiles/region-points.zip/region-points.[shp] (point shapefile with region markers)
 
-Follow the exercise instructions at [https://hydro-informatics.github.io](https://hydro-informatics.github.io/bm-pre.html) for more instructions and information on the here provided data.
+The tutorial instructions are provided at [https://hydro-informatics.github.io](https://hydro-informatics.github.io/pre-qgis.html).
